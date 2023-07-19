@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5ED800B92A682C94001C7735 /* GraphRepresentationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED800B82A682C94001C7735 /* GraphRepresentationApp.swift */; };
+		5ED800BB2A682C94001C7735 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED800BA2A682C94001C7735 /* ContentView.swift */; };
+		5ED800BD2A682C96001C7735 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ED800BC2A682C96001C7735 /* Assets.xcassets */; };
+		5ED800C02A682C96001C7735 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ED800BF2A682C96001C7735 /* Preview Assets.xcassets */; };
+		5ED800CB2A682C96001C7735 /* GraphRepresentationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED800CA2A682C96001C7735 /* GraphRepresentationTests.swift */; };
+		5ED800D52A682C96001C7735 /* GraphRepresentationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED800D42A682C96001C7735 /* GraphRepresentationUITests.swift */; };
+		5ED800D72A682C96001C7735 /* GraphRepresentationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED800D62A682C96001C7735 /* GraphRepresentationUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5ED800C72A682C96001C7735 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5ED800AD2A682C94001C7735 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5ED800B42A682C94001C7735;
+			remoteInfo = GraphRepresentation;
+		};
+		5ED800D12A682C96001C7735 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5ED800AD2A682C94001C7735 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5ED800B42A682C94001C7735;
+			remoteInfo = GraphRepresentation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5ED800B52A682C94001C7735 /* GraphRepresentation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GraphRepresentation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ED800B82A682C94001C7735 /* GraphRepresentationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphRepresentationApp.swift; sourceTree = "<group>"; };
+		5ED800BA2A682C94001C7735 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5ED800BC2A682C96001C7735 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5ED800BF2A682C96001C7735 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5ED800C12A682C96001C7735 /* GraphRepresentation.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GraphRepresentation.entitlements; sourceTree = "<group>"; };
+		5ED800C62A682C96001C7735 /* GraphRepresentationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GraphRepresentationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ED800CA2A682C96001C7735 /* GraphRepresentationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphRepresentationTests.swift; sourceTree = "<group>"; };
+		5ED800D02A682C96001C7735 /* GraphRepresentationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GraphRepresentationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ED800D42A682C96001C7735 /* GraphRepresentationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphRepresentationUITests.swift; sourceTree = "<group>"; };
+		5ED800D62A682C96001C7735 /* GraphRepresentationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphRepresentationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5ED800B22A682C94001C7735 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ED800C32A682C96001C7735 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ED800CD2A682C96001C7735 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5ED800AC2A682C94001C7735 = {
+			isa = PBXGroup;
+			children = (
+				5ED800B72A682C94001C7735 /* GraphRepresentation */,
+				5ED800C92A682C96001C7735 /* GraphRepresentationTests */,
+				5ED800D32A682C96001C7735 /* GraphRepresentationUITests */,
+				5ED800B62A682C94001C7735 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5ED800B62A682C94001C7735 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5ED800B52A682C94001C7735 /* GraphRepresentation.app */,
+				5ED800C62A682C96001C7735 /* GraphRepresentationTests.xctest */,
+				5ED800D02A682C96001C7735 /* GraphRepresentationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5ED800B72A682C94001C7735 /* GraphRepresentation */ = {
+			isa = PBXGroup;
+			children = (
+				5ED800B82A682C94001C7735 /* GraphRepresentationApp.swift */,
+				5ED800BA2A682C94001C7735 /* ContentView.swift */,
+				5ED800BC2A682C96001C7735 /* Assets.xcassets */,
+				5ED800C12A682C96001C7735 /* GraphRepresentation.entitlements */,
+				5ED800BE2A682C96001C7735 /* Preview Content */,
+			);
+			path = GraphRepresentation;
+			sourceTree = "<group>";
+		};
+		5ED800BE2A682C96001C7735 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5ED800BF2A682C96001C7735 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5ED800C92A682C96001C7735 /* GraphRepresentationTests */ = {
+			isa = PBXGroup;
+			children = (
+				5ED800CA2A682C96001C7735 /* GraphRepresentationTests.swift */,
+			);
+			path = GraphRepresentationTests;
+			sourceTree = "<group>";
+		};
+		5ED800D32A682C96001C7735 /* GraphRepresentationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5ED800D42A682C96001C7735 /* GraphRepresentationUITests.swift */,
+				5ED800D62A682C96001C7735 /* GraphRepresentationUITestsLaunchTests.swift */,
+			);
+			path = GraphRepresentationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5ED800B42A682C94001C7735 /* GraphRepresentation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ED800DA2A682C96001C7735 /* Build configuration list for PBXNativeTarget "GraphRepresentation" */;
+			buildPhases = (
+				5ED800B12A682C94001C7735 /* Sources */,
+				5ED800B22A682C94001C7735 /* Frameworks */,
+				5ED800B32A682C94001C7735 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GraphRepresentation;
+			productName = GraphRepresentation;
+			productReference = 5ED800B52A682C94001C7735 /* GraphRepresentation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5ED800C52A682C96001C7735 /* GraphRepresentationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ED800DD2A682C96001C7735 /* Build configuration list for PBXNativeTarget "GraphRepresentationTests" */;
+			buildPhases = (
+				5ED800C22A682C96001C7735 /* Sources */,
+				5ED800C32A682C96001C7735 /* Frameworks */,
+				5ED800C42A682C96001C7735 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5ED800C82A682C96001C7735 /* PBXTargetDependency */,
+			);
+			name = GraphRepresentationTests;
+			productName = GraphRepresentationTests;
+			productReference = 5ED800C62A682C96001C7735 /* GraphRepresentationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5ED800CF2A682C96001C7735 /* GraphRepresentationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ED800E02A682C96001C7735 /* Build configuration list for PBXNativeTarget "GraphRepresentationUITests" */;
+			buildPhases = (
+				5ED800CC2A682C96001C7735 /* Sources */,
+				5ED800CD2A682C96001C7735 /* Frameworks */,
+				5ED800CE2A682C96001C7735 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5ED800D22A682C96001C7735 /* PBXTargetDependency */,
+			);
+			name = GraphRepresentationUITests;
+			productName = GraphRepresentationUITests;
+			productReference = 5ED800D02A682C96001C7735 /* GraphRepresentationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5ED800AD2A682C94001C7735 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					5ED800B42A682C94001C7735 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					5ED800C52A682C96001C7735 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 5ED800B42A682C94001C7735;
+					};
+					5ED800CF2A682C96001C7735 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 5ED800B42A682C94001C7735;
+					};
+				};
+			};
+			buildConfigurationList = 5ED800B02A682C94001C7735 /* Build configuration list for PBXProject "GraphRepresentation" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5ED800AC2A682C94001C7735;
+			productRefGroup = 5ED800B62A682C94001C7735 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5ED800B42A682C94001C7735 /* GraphRepresentation */,
+				5ED800C52A682C96001C7735 /* GraphRepresentationTests */,
+				5ED800CF2A682C96001C7735 /* GraphRepresentationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5ED800B32A682C94001C7735 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ED800C02A682C96001C7735 /* Preview Assets.xcassets in Resources */,
+				5ED800BD2A682C96001C7735 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ED800C42A682C96001C7735 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ED800CE2A682C96001C7735 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5ED800B12A682C94001C7735 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ED800BB2A682C94001C7735 /* ContentView.swift in Sources */,
+				5ED800B92A682C94001C7735 /* GraphRepresentationApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ED800C22A682C96001C7735 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ED800CB2A682C96001C7735 /* GraphRepresentationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ED800CC2A682C96001C7735 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ED800D72A682C96001C7735 /* GraphRepresentationUITestsLaunchTests.swift in Sources */,
+				5ED800D52A682C96001C7735 /* GraphRepresentationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5ED800C82A682C96001C7735 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5ED800B42A682C94001C7735 /* GraphRepresentation */;
+			targetProxy = 5ED800C72A682C96001C7735 /* PBXContainerItemProxy */;
+		};
+		5ED800D22A682C96001C7735 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5ED800B42A682C94001C7735 /* GraphRepresentation */;
+			targetProxy = 5ED800D12A682C96001C7735 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5ED800D82A682C96001C7735 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5ED800D92A682C96001C7735 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		5ED800DB2A682C96001C7735 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GraphRepresentation/GraphRepresentation.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GraphRepresentation/Preview Content\"";
+				DEVELOPMENT_TEAM = KKCT26533X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = private.com.GraphRepresentation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5ED800DC2A682C96001C7735 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GraphRepresentation/GraphRepresentation.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GraphRepresentation/Preview Content\"";
+				DEVELOPMENT_TEAM = KKCT26533X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = private.com.GraphRepresentation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		5ED800DE2A682C96001C7735 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KKCT26533X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = private.com.GraphRepresentationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GraphRepresentation.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GraphRepresentation";
+			};
+			name = Debug;
+		};
+		5ED800DF2A682C96001C7735 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KKCT26533X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = private.com.GraphRepresentationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GraphRepresentation.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GraphRepresentation";
+			};
+			name = Release;
+		};
+		5ED800E12A682C96001C7735 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KKCT26533X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = private.com.GraphRepresentationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = GraphRepresentation;
+			};
+			name = Debug;
+		};
+		5ED800E22A682C96001C7735 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KKCT26533X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = private.com.GraphRepresentationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = GraphRepresentation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5ED800B02A682C94001C7735 /* Build configuration list for PBXProject "GraphRepresentation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ED800D82A682C96001C7735 /* Debug */,
+				5ED800D92A682C96001C7735 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5ED800DA2A682C96001C7735 /* Build configuration list for PBXNativeTarget "GraphRepresentation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ED800DB2A682C96001C7735 /* Debug */,
+				5ED800DC2A682C96001C7735 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5ED800DD2A682C96001C7735 /* Build configuration list for PBXNativeTarget "GraphRepresentationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ED800DE2A682C96001C7735 /* Debug */,
+				5ED800DF2A682C96001C7735 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5ED800E02A682C96001C7735 /* Build configuration list for PBXNativeTarget "GraphRepresentationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ED800E12A682C96001C7735 /* Debug */,
+				5ED800E22A682C96001C7735 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5ED800AD2A682C94001C7735 /* Project object */;
+}
