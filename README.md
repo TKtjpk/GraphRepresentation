@@ -62,6 +62,6 @@ We appreciate contributions to enhance the Data Visualization Client or fix any 
 
 ## License
 
-MyApp is released under the [MIT License](You are free to modify and distribute this codebase according to the terms specified in the license.)
+MyApp is released under the [MIT License](LICENSE). Feel free to use, modify, and distribute this code as per the terms specified in the license.
 
 For the documentation of other parts of the MyApp, please refer to their respective README files.
