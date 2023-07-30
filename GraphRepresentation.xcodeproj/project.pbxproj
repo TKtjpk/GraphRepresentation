@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E197BD32A72C646001086C1 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E197BD22A72C646001086C1 /* Model.swift */; };
+		5E197BD52A72C797001086C1 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E197BD42A72C797001086C1 /* ViewModel.swift */; };
 		5ED800B92A682C94001C7735 /* GraphRepresentationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED800B82A682C94001C7735 /* GraphRepresentationApp.swift */; };
 		5ED800BB2A682C94001C7735 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED800BA2A682C94001C7735 /* ContentView.swift */; };
 		5ED800BD2A682C96001C7735 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ED800BC2A682C96001C7735 /* Assets.xcassets */; };
@@ -34,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5E197BD22A72C646001086C1 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		5E197BD42A72C797001086C1 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		5E197BD62A72D723001086C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		5ED800B52A682C94001C7735 /* GraphRepresentation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GraphRepresentation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ED800B82A682C94001C7735 /* GraphRepresentationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphRepresentationApp.swift; sourceTree = "<group>"; };
 		5ED800BA2A682C94001C7735 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -72,6 +77,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E197BCF2A72C5E0001086C1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5E197BD22A72C646001086C1 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5E197BD02A72C5EC001086C1 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				5E197BD42A72C797001086C1 /* ViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		5E197BD12A72C613001086C1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5ED800BA2A682C94001C7735 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		5ED800AC2A682C94001C7735 = {
 			isa = PBXGroup;
 			children = (
@@ -95,8 +124,11 @@
 		5ED800B72A682C94001C7735 /* GraphRepresentation */ = {
 			isa = PBXGroup;
 			children = (
+				5E197BD62A72D723001086C1 /* Info.plist */,
+				5E197BD12A72C613001086C1 /* View */,
+				5E197BD02A72C5EC001086C1 /* View Model */,
+				5E197BCF2A72C5E0001086C1 /* Model */,
 				5ED800B82A682C94001C7735 /* GraphRepresentationApp.swift */,
-				5ED800BA2A682C94001C7735 /* ContentView.swift */,
 				5ED800BC2A682C96001C7735 /* Assets.xcassets */,
 				5ED800C12A682C96001C7735 /* GraphRepresentation.entitlements */,
 				5ED800BE2A682C96001C7735 /* Preview Content */,
@@ -259,7 +291,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E197BD32A72C646001086C1 /* Model.swift in Sources */,
 				5ED800BB2A682C94001C7735 /* ContentView.swift in Sources */,
+				5E197BD52A72C797001086C1 /* ViewModel.swift in Sources */,
 				5ED800B92A682C94001C7735 /* GraphRepresentationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,6 +458,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GraphRepresentation/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -451,6 +486,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GraphRepresentation/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
